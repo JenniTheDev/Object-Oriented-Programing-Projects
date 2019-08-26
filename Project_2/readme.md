@@ -10,8 +10,13 @@ Then the data had to be displayed in different ways, with all data showing and s
 Finally, selected data had to be saved to a new file. 
 
 
+
+
 **This is a screenshot of the final output to the console.**
-![image of final output](https://imgur.com/6aN0y9F)
+![image of final output](https://i.imgur.com/6aN0y9F.jpg)
+
+
+
 
 
 **This is a screenshot of the file with the data saved.**
