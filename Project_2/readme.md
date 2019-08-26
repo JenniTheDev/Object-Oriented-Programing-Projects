@@ -1,4 +1,5 @@
-**##Project Requirements**
+Project Requirements
+
 This project was to demonstrate that I understood making arrays. 
 
 The project had to include reading from a file using deliminators, placing the information in an array,
