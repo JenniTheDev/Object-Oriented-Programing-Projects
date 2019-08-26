@@ -6,7 +6,7 @@
 using namespace std;
 
 
-**//function declarations**
+//function declarations
 const int NUMSTUD=10;
 const int SCORES=5;
 void storeData (int ids[], string names[], int scrAry[][SCORES]); //puts data from file in array
@@ -18,7 +18,7 @@ void studentLookup (int ids[], string names[], int scrAry[][SCORES], int gradeTo
 void makeFile (string names[], char gradeLetter[]); //makes new file with info
 
 
-**//main**
+
 int main(){
 
   int stId[NUMSTUD]; //student id array
@@ -50,7 +50,7 @@ int main(){
 
 
 
-**//function for opening file and putting data in arrays**
+//function for opening file and putting data in arrays
 void storeData (int ids[], string names[], int scrAry[][SCORES] ){
   ifstream dataFile ("data121.txt");	//open file to read from
 	if (dataFile){                       	//if file is open
@@ -70,7 +70,7 @@ void storeData (int ids[], string names[], int scrAry[][SCORES] ){
 }
 
 
- **//determine letter grade function**
+ //determine letter grade function
 void letterGrade (int scrAry[][SCORES], int gradeTotal[], char gradeLetter[]){
   for (int count=0; count<NUMSTUD; count++){         	//this loop adds up scores
   	int sum=0;                                         	//saves them to gradeTotal array
@@ -98,7 +98,7 @@ void letterGrade (int scrAry[][SCORES], int gradeTotal[], char gradeLetter[]){
 }
 
 
-**//this is for outputting the data altogether**
+//this is for outputting the data altogether
 void outputInfo (int ids[], string names[], int scrAry[][SCORES], int gradeTotal[], char gradeLetter[]){
   for (int count=0; count<NUMSTUD; count++){  	//outputs all info
   	cout<<"Student ID: "<<ids[count]<<" Student Name: "<<names[count]<<endl;
@@ -110,7 +110,7 @@ void outputInfo (int ids[], string names[], int scrAry[][SCORES], int gradeTotal
 }
 
 
-**//finds highest score and student it belongs to**
+//finds highest score and student it belongs to
 void highScore (string names[], int gradeTotal[]){
   int maxGrade = gradeTotal[0];                  	//compares total grade for each student
   for (int count=0; count <NUMSTUD; count++){          	//saves highest grade score to maxGrade
