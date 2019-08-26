@@ -13,6 +13,7 @@ Finally, selected data had to be saved to a new file.
 
 
 **This is a screenshot of the final output to the console.**
+
 ![image of final output](https://i.imgur.com/6aN0y9F.jpg)
 
 
@@ -20,4 +21,5 @@ Finally, selected data had to be saved to a new file.
 
 
 **This is a screenshot of the file with the data saved.**
+
 ![image of final file](https://i.imgur.com/vtSoDFM.jpg?2)
