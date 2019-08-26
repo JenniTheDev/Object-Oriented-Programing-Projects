@@ -15,4 +15,4 @@ Finally, selected data had to be saved to a new file.
 
 
 **This is a screenshot of the file with the data saved.**
-![image of final file](https://imgur.com/vtSoDFM)
+![image of final file](https://i.imgur.com/vtSoDFM.jpg?2)
